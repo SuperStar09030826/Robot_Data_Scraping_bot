@@ -45,9 +45,18 @@ if __name__ == "__main__":
   except NoSuchElementException:
     print("Button with 'Search the web' clicked.")
 
-  robot_list = read_file_and_return_lines("robot list.txt")
-  query_list = read_file_and_return_lines("query list.txt")
-  query_list = clean_text_list(query_list, time_repeat)
+  # loginbtn = driver.find_element(By.CSS_SELECTOR, 'button[data-testid="login-button"]')
+  # loginbtn.click()
+  # googlebtn = driver.find_elements(By.CLASS_NAME, 'social-btn')[0]
+  # googlebtn.click()
+  # sleep(1)
+
+  # robot_list = read_file_and_return_lines("robot list.txt")
+  # query_list = read_file_and_return_lines("query list.txt")
+  # query_list = clean_text_list(query_list, time_repeat)
+
+  query_list = read_json_and_return_lines("query.json")
+  robot_list = read_json_and_combine_keyvalues("robot.json")
 
   for robot_id, robot in enumerate(robot_list):
     robot_query = [robot] + query_list
@@ -78,8 +87,18 @@ if __name__ == "__main__":
         textbox.send_keys(Keys.ENTER)
         sleep(time_quest)
 
-        answer = driver.find_elements(By.CLASS_NAME, 'markdown')[int(query_id/5)].text
-        print(f'[ANSWER {int(query_id/5) + 1}]:\n{answer}')
+        # answer = driver.find_elements(By.CLASS_NAME, 'markdown')[int(query_id/5)].text
+        # print(f'[ANSWER {int(query_id/5) + 1}]:\n{answer}')
+
+        try:       
+          copy_btn = driver.find_elements(By.CSS_SELECTOR, 'button[data-testid="copy-turn-action-button"]')[-1]
+        except NoSuchElementException:
+          pass
+        driver.execute_script("arguments[0].scrollIntoView(true);", copy_btn)
+        answer = driver.find_elements(By.CLASS_NAME, 'markdown')[- 1].text
+
+        # file_buffer.append("\n" + answer)
+        # file_buffer.append("\n")
 
         value_buffer.append({
           "query": query_buffer,
@@ -89,6 +108,12 @@ if __name__ == "__main__":
         query_buffer = []
 
         sleep(10)
+      # else:
+      #   textbox.send_keys(f'{query if query_id == 0 else '- ' + query}')
+      #   textbox.send_keys(Keys.SHIFT, Keys.ENTER)
+      #   sleep(1)
     
-    save_list_to_txt(file_buffer, robot + '.txt')
+    # save_list_to_txt(file_buffer, robot + '.txt')
+    add_entry_to_json_file('output.json', today_date(), robot.split(",")[0], robot.split(",")[1], value_buffer)
+    print("New robot data added.\ndate: {},\ncompany: {},\nrobot: {}.".format(today_date(), robot.split(",")[0], robot.split(",")[1]))
     sleep(time_robot)
