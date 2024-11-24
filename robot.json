@@ -1,0 +1,446 @@
+[
+  {
+      "company": "SoftBank Robotics",
+      "robot": "Pepper"
+  },
+  {
+      "company": "SoftBank Robotics",
+      "robot": "NAO"
+  },
+  {
+      "company": "UBTECH Robotics (China)",
+      "robot": "Walker"
+  },
+  {
+      "company": "UBTECH Robotics (China)",
+      "robot": "Alpha Mini"
+  },
+  {
+      "company": "PAL Robotics",
+      "robot": "REEM"
+  },
+  {
+      "company": "PAL Robotics",
+      "robot": "TALOS"
+  },
+  {
+      "company": "Hanson Robotics",
+      "robot": "Sophia"
+  },
+  {
+      "company": "Hanson Robotics",
+      "robot": "Little Sophia"
+  },
+  {
+      "company": "Engineered Arts",
+      "robot": "RoboThespian"
+  },
+  {
+      "company": "Engineered Arts",
+      "robot": "Mesmer"
+  },
+  {
+      "company": "AvatarMind (China)",
+      "robot": "iPal"
+  },
+  {
+      "company": "CloudMinds (China)",
+      "robot": "XR-1"
+  },
+  {
+      "company": "Qihan Technology (China)",
+      "robot": "Sanbot Elf"
+  },
+  {
+      "company": "Qihan Technology (China)",
+      "robot": "Sanbot Nano"
+  },
+  {
+      "company": "RoboKind",
+      "robot": "Milo"
+  },
+  {
+      "company": "Blue Frog Robotics",
+      "robot": "Buddy"
+  },
+  {
+      "company": "Misty Robotics",
+      "robot": "Misty II"
+  },
+  {
+      "company": "Meccano",
+      "robot": "Meccanoid G15 KS"
+  },
+  {
+      "company": "EZ-Robot",
+      "robot": "JD Humanoid"
+  },
+  {
+      "company": "RoboBuilder",
+      "robot": "RQ-TITAN"
+  },
+  {
+      "company": "ROBOTIS",
+      "robot": "ROBOTIS OP2"
+  },
+  {
+      "company": "ROBOTIS",
+      "robot": "ROBOTIS OP3"
+  },
+  {
+      "company": "Trossen Robotics",
+      "robot": "HR-OS1"
+  },
+  {
+      "company": "Leju Robotics (China)",
+      "robot": "Aelos 1S"
+  },
+  {
+      "company": "Pollen Robotics",
+      "robot": "Reachy"
+  },
+  {
+      "company": "Furhat Robotics",
+      "robot": "Furhat"
+  },
+  {
+      "company": "Toshiba",
+      "robot": "ChihiraAico"
+  },
+  {
+      "company": "Promobot (Russia)",
+      "robot": "Promobot V.4"
+  },
+  {
+      "company": "Promobot (Russia)",
+      "robot": "Robo-C"
+  },
+  {
+      "company": "Jinn-Bot Robotics & Design (Switzerland)",
+      "robot": "Jinn-Bot"
+  },
+  {
+      "company": "InMoov",
+      "robot": "InMoov Open Source Humanoid Robot"
+  },
+  {
+      "company": "TOSY Robotics",
+      "robot": "DiscoRobo"
+  },
+  {
+      "company": "Robomodix",
+      "robot": "ADA"
+  },
+  {
+      "company": "Robomodix",
+      "robot": "TITAN"
+  },
+  {
+      "company": "Robosen Robotics (China)",
+      "robot": "T9 Programmable Robot"
+  },
+  {
+      "company": "Robosen Robotics (China)",
+      "robot": "Optimus Prime Auto-Converting Robot"
+  },
+  {
+      "company": "Abilix (China)",
+      "robot": "Abilix Krypton Series"
+  },
+  {
+      "company": "Macco Robotics",
+      "robot": "Kime"
+  },
+  {
+      "company": "Kawada Robotics",
+      "robot": "Nextage"
+  },
+  {
+      "company": "Agility Robotics",
+      "robot": "Digit"
+  },
+  {
+      "company": "Toyota",
+      "robot": "T-HR3"
+  },
+  {
+      "company": "Kokoro Company (Japan)",
+      "robot": "Actroid"
+  },
+  {
+      "company": "AISoy Robotics",
+      "robot": "AISoy1"
+  },
+  {
+      "company": "Future Robotics (China)",
+      "robot": "Furo-D"
+  },
+  {
+      "company": "Shenzhen X-Robot Technology Co. (China)",
+      "robot": "Robotic Humanoid X"
+  },
+  {
+      "company": "ExRobot (China)",
+      "robot": "ExRobot Model H"
+  },
+  {
+      "company": "Shenzhen AI Robot Co. (China)",
+      "robot": "AI Humanoid V"
+  },
+  {
+      "company": "Hajime Research Institute (Japan)",
+      "robot": "Hajime Robot 33"
+  },
+  {
+      "company": "Robo Garage",
+      "robot": "ROBOHON"
+  },
+  {
+      "company": "Hanwuji Intelligence (China)",
+      "robot": "HWJ humanoid series"
+  },
+  {
+      "company": "AlphaTech Robotics",
+      "robot": "AlphaMech"
+  },
+  {
+      "company": "Turing Robot (China)",
+      "robot": "Turing Robot S"
+  },
+  {
+      "company": "Shenzhen Gowild Robotics (China)",
+      "robot": "Mini Ada"
+  },
+  {
+      "company": "Siasun Robot & Automation Co. (China)",
+      "robot": "Siasun Humanoid"
+  },
+  {
+      "company": "KIMECH Robotics",
+      "robot": "KIMECH V"
+  },
+  {
+      "company": "Robotnik",
+      "robot": "HUSKY A200"
+  },
+  {
+      "company": "F&P Robotics",
+      "robot": "P-Rob"
+  },
+  {
+      "company": "Engineered Arts",
+      "robot": "Socibot Mini"
+  },
+  {
+      "company": "Honda",
+      "robot": "ASIMO"
+  },
+  {
+      "company": "Honda",
+      "robot": "E2-DR"
+  },
+  {
+      "company": "Toyota",
+      "robot": "T-HR2"
+  },
+  {
+      "company": "PAL Robotics",
+      "robot": "REEM-C"
+  },
+  {
+      "company": "PAL Robotics",
+      "robot": "TIAGo"
+  },
+  {
+      "company": "Rethink Robotics",
+      "robot": "Baxter"
+  },
+  {
+      "company": "Boston Dynamics",
+      "robot": "Atlas"
+  },
+  {
+      "company": "Robothespian",
+      "robot": "SociBot"
+  },
+  {
+      "company": "KIST (Korea)",
+      "robot": "Hubo"
+  },
+  {
+      "company": "Willow Garage",
+      "robot": "PR2"
+  },
+  {
+      "company": "National Taiwan University",
+      "robot": "Ameca"
+  },
+  {
+      "company": "Tesla",
+      "robot": "Optimus"
+  },
+  {
+      "company": "Xiaomi (China)",
+      "robot": "CyberOne"
+  },
+  {
+      "company": "Hyundai Robotics",
+      "robot": "DARWIN-Mini"
+  },
+  {
+      "company": "ROBOTIS",
+      "robot": "DARWIN-OP"
+  },
+  {
+      "company": "University of Tehran",
+      "robot": "Surena IV"
+  },
+  {
+      "company": "KIST",
+      "robot": "Mahru"
+  },
+  {
+      "company": "Simbe Robotics",
+      "robot": "Tally"
+  },
+  {
+      "company": "Anki",
+      "robot": "Vector"
+  },
+  {
+      "company": "Sony",
+      "robot": "QRIO"
+  },
+  {
+      "company": "WowWee",
+      "robot": "Robosapien X"
+  },
+  {
+      "company": "RoboDynamics",
+      "robot": "Luna"
+  },
+  {
+      "company": "Samsung",
+      "robot": "Samsung Bot Retail"
+  },
+  {
+      "company": "Samsung",
+      "robot": "Bot Care"
+  },
+  {
+      "company": "Kinova Robotics",
+      "robot": "Kinova Gen3"
+  },
+  {
+      "company": "AlphaDog (China)",
+      "robot": "AlphaDog Robot"
+  },
+  {
+      "company": "Unitree Robotics (China)",
+      "robot": "A1"
+  },
+  {
+      "company": "Unitree Robotics (China)",
+      "robot": "G1"
+  },
+  {
+      "company": "SoftBank Robotics",
+      "robot": "Whiz"
+  },
+  {
+      "company": "ABB Robotics",
+      "robot": "YuMi"
+  },
+  {
+      "company": "NVIDIA",
+      "robot": "Jetson Nano"
+  },
+  {
+      "company": "Autonomous Systems Lab",
+      "robot": "ANYmal"
+  },
+  {
+      "company": "Rainbow Robotics",
+      "robot": "Hubo II"
+  },
+  {
+      "company": "PAL Robotics",
+      "robot": "ARI"
+  },
+  {
+      "company": "ETH Zurich",
+      "robot": "Roboy"
+  },
+  {
+      "company": "Aldebaran Robotics",
+      "robot": "Romeo"
+  },
+  {
+      "company": "Sarcos Robotics",
+      "robot": "Guardian XO"
+  },
+  {
+      "company": "NASA",
+      "robot": "Valkyrie"
+  },
+  {
+      "company": "AIST",
+      "robot": "HRP-5P"
+  },
+  {
+      "company": "KAIST",
+      "robot": "DRC-Hubo"
+  },
+  {
+      "company": "iCub",
+      "robot": "iCub Robot"
+  },
+  {
+      "company": "Georgia Tech",
+      "robot": "Cody"
+  },
+  {
+      "company": "Kawada Robotics",
+      "robot": "HRP-4"
+  },
+  {
+      "company": "National Institute of Advanced Industrial Science and Technology (AIST)",
+      "robot": "HRP-2"
+  },
+  {
+      "company": "University of Tokyo",
+      "robot": "Kenshiro"
+  },
+  {
+      "company": "University of Pisa",
+      "robot": "Face Robot"
+  },
+  {
+      "company": "Robotnik",
+      "robot": "RB-1"
+  },
+  {
+      "company": "Festo",
+      "robot": "Bionic Kangaroo"
+  },
+  {
+      "company": "Robo Valley",
+      "robot": "TU Delft Flame"
+  },
+  {
+      "company": "Volkswagen",
+      "robot": "Sedric"
+  },
+  {
+      "company": "Robugtix",
+      "robot": "T8X"
+  },
+  {
+      "company": "Honda",
+      "robot": "E2"
+  },
+  {
+      "company": "PAL Robotics",
+      "robot": "TIAGo"
+  }
+]
